@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>easyboot</artifactId>
+        <groupId>com.easy.boot</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>easyboot-admin</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+<!--        &lt;!&ndash; 验证码插件 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>cloud.tianai.captcha</groupId>-->
+<!--            <artifactId>tianai-captcha-springboot-starter</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 获取系统信息 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.github.oshi</groupId>-->
+<!--            <artifactId>oshi-core</artifactId>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 解决Macos DNS解析问题，只有Mac电脑需要 https://stackoverflow.com/questions/69481239/can-not-find-io-netty-resolver-dns-macos-macosdnsserveraddressstreamprovider &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>io.netty</groupId>-->
+<!--            <artifactId>netty-all</artifactId>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>com.easy.boot</groupId>
+            <artifactId>easyboot-system</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.easy.boot</groupId>
+            <artifactId>easyboot-task</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.easy.boot</groupId>
+            <artifactId>easyboot-generator</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
