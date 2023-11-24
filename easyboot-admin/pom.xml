@@ -17,22 +17,16 @@
     </properties>
 
     <dependencies>
-<!--        &lt;!&ndash; 验证码插件 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>cloud.tianai.captcha</groupId>-->
-<!--            <artifactId>tianai-captcha-springboot-starter</artifactId>-->
-<!--        </dependency>-->
-<!--        &lt;!&ndash; 获取系统信息 &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.github.oshi</groupId>-->
-<!--            <artifactId>oshi-core</artifactId>-->
-<!--        </dependency>-->
-<!--        &lt;!&ndash; 解决Macos DNS解析问题，只有Mac电脑需要 https://stackoverflow.com/questions/69481239/can-not-find-io-netty-resolver-dns-macos-macosdnsserveraddressstreamprovider &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>io.netty</groupId>-->
-<!--            <artifactId>netty-all</artifactId>-->
-<!--            <scope>provided</scope>-->
-<!--        </dependency>-->
+        <!-- 验证码插件 -->
+        <dependency>
+            <groupId>cloud.tianai.captcha</groupId>
+            <artifactId>tianai-captcha-springboot-starter</artifactId>
+        </dependency>
+        <!-- 获取系统信息 -->
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.easy.boot</groupId>
             <artifactId>easyboot-system</artifactId>

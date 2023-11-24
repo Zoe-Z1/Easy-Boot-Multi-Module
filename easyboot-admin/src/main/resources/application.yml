@@ -88,9 +88,6 @@ spring:
 
 # 配置文档 https://baomidou.com/#tablename
 mybatis-plus:
-  type-aliases-package: com.easy.boot.admin.user.dos.*
-  # 配置mapper的扫描，找到所有的mapper.xml映射文件
-  mapper-locations: classpath:mapper/*.xml
   configuration:
     # 开启数据库字段驼峰式命名映射
     map-underscore-to-camel-case: true

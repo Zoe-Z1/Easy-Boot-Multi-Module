@@ -1,4 +1,4 @@
-package com.easy.boot.common.captcha;
+package com.easy.boot.captcha;
 
 import cloud.tianai.captcha.common.constant.CaptchaTypeConstant;
 import cloud.tianai.captcha.common.constant.CommonConstant;
