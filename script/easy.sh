@@ -1,13 +1,13 @@
 #! /bin/bash
 
 # sh easy.sh start 启动 stop 停止 restart 重启 backup 备份 status 状态
-AppName=EasyBoot.jar
+AppName=easyboot-admin.jar
 
 # JVM参数
 JVM_OPTS="-Dname=$AppName -Duser.timezone=Asia/Shanghai -Xms512m -Xmx1024m"
 
 # jar包目录
-AppDir=/data/java
+AppDir=/data/java_multi_module
 BUILD_ID=$AppName
 
 function start()
