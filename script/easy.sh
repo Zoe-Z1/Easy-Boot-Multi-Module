@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # sh easy.sh start 启动 stop 停止 restart 重启 backup 备份 status 状态
-AppName=easyboot-admin.jar
+AppName=easy-boot-admin.jar
 
 # JVM参数
 JVM_OPTS="-Dname=$AppName -Duser.timezone=Asia/Shanghai -Xms512m -Xmx1024m"

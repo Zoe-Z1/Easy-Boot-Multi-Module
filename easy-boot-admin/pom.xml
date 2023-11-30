@@ -3,12 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>easyboot</artifactId>
+        <artifactId>easy-boot-multi-module</artifactId>
         <groupId>com.easy.boot</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>easyboot-admin</artifactId>
+    <artifactId>easy-boot-admin</artifactId>
     <description>EasyBoot后台管理功能模块</description>
 
     <properties>
@@ -34,15 +34,15 @@
         </dependency>
         <dependency>
             <groupId>com.easy.boot</groupId>
-            <artifactId>easyboot-system</artifactId>
+            <artifactId>easy-boot-system</artifactId>
         </dependency>
         <dependency>
             <groupId>com.easy.boot</groupId>
-            <artifactId>easyboot-task</artifactId>
+            <artifactId>easy-boot-task</artifactId>
         </dependency>
         <dependency>
             <groupId>com.easy.boot</groupId>
-            <artifactId>easyboot-generator</artifactId>
+            <artifactId>easy-boot-generator</artifactId>
         </dependency>
     </dependencies>
 

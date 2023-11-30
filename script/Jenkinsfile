@@ -8,7 +8,7 @@ pipeline {
         // 切代码分支 可省略这一步
         //stage('拉取代码') {
             //steps {
-                //git branch: 'easyboot-multi-module', credentialsId: '117af67f-3976-4b81-a718-ce31c685170f', url: 'https://gitee.com/thisZhuMy_admin/EasyBoot.git'
+                //git branch: 'easy-boot-multi-module', credentialsId: '117af67f-3976-4b81-a718-ce31c685170f', url: 'https://gitee.com/thisZhuMy_admin/EasyBoot.git'
             //}
         //}
         stage('编译构建') {
@@ -20,7 +20,7 @@ pipeline {
     post {
         success {
             echo '上传jar包和脚本'
-            sshPublisher(publishers: [sshPublisherDesc(configName: '本人服务器', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'sh /data/java_multi_module/easy.sh backup', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'java_multi_module', remoteDirectorySDF: false, removePrefix: 'script', sourceFiles: 'script/easy.sh'), sshTransfer(cleanRemote: false, excludes: '', execCommand: 'nohup sh /data/java_multi_module/easy.sh restart > /dev/null 2>&1 &', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'java_multi_module', remoteDirectorySDF: false, removePrefix: 'easyboot-admin/target', sourceFiles: 'easyboot-admin/target/easyboot-admin.jar')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: true)])
+            sshPublisher(publishers: [sshPublisherDesc(configName: '本人服务器', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'sh /data/java_multi_module/easy.sh backup', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'java_multi_module', remoteDirectorySDF: false, removePrefix: 'script', sourceFiles: 'script/easy.sh'), sshTransfer(cleanRemote: false, excludes: '', execCommand: 'nohup sh /data/java_multi_module/easy.sh restart > /dev/null 2>&1 &', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: 'java_multi_module', remoteDirectorySDF: false, removePrefix: 'easy-boot-admin/target', sourceFiles: 'easy-boot-admin/target/easy-boot-admin.jar')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: true)])
         }
     }
 }

@@ -1,10 +1,9 @@
 ## 简介
-一个后端使用Jdk1.8+Springboot2.7x+Mysql8.0+Redis，
-前端使用Vue2+Vite3+Element 的可快速启动的后台管理框架，
+一个后端使用Jdk1.8+Springboot2.7x+Mysql8.0+Redis的可快速启动的后台管理框架，
 内置自研代码生成器，可一键生成前端Vue页面、后端CRUD和导入导出接口、动态菜单以及数据字典SQL语句等一条龙代码，
 可免费用于商业。项目容易上手，功能丰富，完全开源，一切只为让你的开发更简单
 
-该分支为多模块版本，单模块版本分支为：dev，分支地址：https://gitee.com/thisZhuMy_admin/EasyBoot/tree/dev/
+该分支为SpringBoot2+Java8版本，SpringBoot3+Java17版本分支为：v3，分支地址：https://gitee.com/thisZhuMy_admin/easy-boot-multi-module/tree/v3/
 
 ## 快速体验
 演示地址：https://www.easyboot.cn
