@@ -17,7 +17,7 @@
         <version>3.2.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.easy.boot3</groupId>
+    <groupId>cn.easy.boot3</groupId>
     <artifactId>easy-boot3-multi-module</artifactId>
     <version>1.0.0</version>
     <name>Easy-Boot3-Multi-Module</name>
@@ -214,32 +214,32 @@
                 <version>${spring-boot-starter.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot3</groupId>
+                <groupId>cn.easy.boot3</groupId>
                 <artifactId>easy-boot3-core</artifactId>
                 <version>${easyboot3.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot3</groupId>
+                <groupId>cn.easy.boot3</groupId>
                 <artifactId>easy-boot3-common</artifactId>
                 <version>${easyboot3.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot3</groupId>
+                <groupId>cn.easy.boot3</groupId>
                 <artifactId>easy-boot3-system</artifactId>
                 <version>${easyboot3.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot3</groupId>
+                <groupId>cn.easy.boot3</groupId>
                 <artifactId>easy-boot3-generator</artifactId>
                 <version>${easyboot3.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot3</groupId>
+                <groupId>cn.easy.boot3</groupId>
                 <artifactId>easy-boot3-task</artifactId>
                 <version>${easyboot3.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot3</groupId>
+                <groupId>cn.easy.boot3</groupId>
                 <artifactId>easy-boot3-admin</artifactId>
                 <version>${easyboot3.version}</version>
             </dependency>

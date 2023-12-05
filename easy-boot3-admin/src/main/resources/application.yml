@@ -118,7 +118,7 @@ springdoc:
   group-configs:
     - group: 后台管理接口
       paths-to-match: /**
-      packages-to-scan: com.easy.boot3.admin
+      packages-to-scan: cn.easy.boot3.admin
   default-flat-param-object: true
 
 # 配置文档 https://doc.xiaominfo.com/docs/features/enhance

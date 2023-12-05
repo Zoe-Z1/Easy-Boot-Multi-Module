@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>easy-boot3-multi-module</artifactId>
-        <groupId>com.easy.boot3</groupId>
+        <groupId>cn.easy.boot3</groupId>
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -23,7 +23,7 @@
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.easy.boot3</groupId>
+            <groupId>cn.easy.boot3</groupId>
             <artifactId>easy-boot3-common</artifactId>
         </dependency>
     </dependencies>
