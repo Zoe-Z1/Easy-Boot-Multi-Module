@@ -17,7 +17,7 @@
         <version>2.7.18</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.easy.boot</groupId>
+    <groupId>cn.easy.boot</groupId>
     <artifactId>easy-boot-multi-module</artifactId>
     <version>1.0.0</version>
     <name>Easy-Boot-Multi-Module</name>
@@ -207,32 +207,32 @@
                 <version>${spring-boot-starter.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot</groupId>
+                <groupId>cn.easy.boot</groupId>
                 <artifactId>easy-boot-core</artifactId>
                 <version>${easyboot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot</groupId>
+                <groupId>cn.easy.boot</groupId>
                 <artifactId>easy-boot-common</artifactId>
                 <version>${easyboot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot</groupId>
+                <groupId>cn.easy.boot</groupId>
                 <artifactId>easy-boot-system</artifactId>
                 <version>${easyboot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot</groupId>
+                <groupId>cn.easy.boot</groupId>
                 <artifactId>easy-boot-generator</artifactId>
                 <version>${easyboot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot</groupId>
+                <groupId>cn.easy.boot</groupId>
                 <artifactId>easy-boot-task</artifactId>
                 <version>${easyboot.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.easy.boot</groupId>
+                <groupId>cn.easy.boot</groupId>
                 <artifactId>easy-boot-admin</artifactId>
                 <version>${easyboot.version}</version>
             </dependency>

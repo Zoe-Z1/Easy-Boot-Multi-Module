@@ -119,7 +119,7 @@ knife4j:
         group-name: 后台管理接口
         api-rule: package
         api-rule-resources:
-          - com.easy.boot.admin
+          - cn.easy.boot.admin
   setting:
     enable-footer: false
 
