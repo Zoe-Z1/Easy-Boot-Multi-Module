@@ -5,12 +5,6 @@ import cn.easy.boot.admin.dataDict.entity.*;
 import cn.easy.boot.admin.dataDict.service.IDataDictService;
 import cn.easy.boot.admin.dataDictDomain.entity.DataDictDomain;
 import cn.easy.boot.admin.dataDictDomain.service.IDataDictDomainService;
-import com.alibaba.excel.EasyExcel;
-import com.alibaba.excel.ExcelWriter;
-import com.alibaba.excel.write.metadata.WriteSheet;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import cn.easy.boot.admin.dataDict.entity.*;
-import cn.easy.boot.core.log.enums.OperateTypeEnum;
 import cn.easy.boot.core.base.BaseController;
 import cn.easy.boot.core.base.Result;
 import cn.easy.boot.core.excel.entity.ImportExcelError;
@@ -18,10 +12,15 @@ import cn.easy.boot.core.excel.entity.ImportVO;
 import cn.easy.boot.core.excel.entity.UploadDTO;
 import cn.easy.boot.core.excel.handler.ExportExcelErrorCellWriteHandler;
 import cn.easy.boot.core.excel.handler.ExportExcelSelectCellWriteHandler;
-import cn.easy.boot.core.log.EasyLog;
-import cn.easy.boot.core.noRepeatSubmit.EasyNoRepeatSubmit;
 import cn.easy.boot.core.exception.BusinessException;
+import cn.easy.boot.core.log.EasyLog;
+import cn.easy.boot.core.log.enums.OperateTypeEnum;
+import cn.easy.boot.core.noRepeatSubmit.EasyNoRepeatSubmit;
 import cn.easy.boot.core.utils.BeanUtil;
+import com.alibaba.excel.EasyExcel;
+import com.alibaba.excel.ExcelWriter;
+import com.alibaba.excel.write.metadata.WriteSheet;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.github.xiaoymin.knife4j.annotations.ApiOperationSupport;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -68,7 +67,7 @@ public class DataDictController extends BaseController {
     @EasyLog(module = "获取全部数据字典", operateType = OperateTypeEnum.SELECT)
     @GetMapping("/all")
     public Result<Map<String, List<DataDict>>> all() {
-        Map<String, List<DataDict>> map = dataDictDomainService.selectAll();
+        Map<String, List<DataDict>> map = dataDictDomainService.selectDictAll();
         return Result.success(map);
     }
 
