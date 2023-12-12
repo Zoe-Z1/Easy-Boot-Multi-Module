@@ -128,7 +128,7 @@ knife4j:
     enable-footer: false
     enable-footer-custom: true
     swagger-model-name: 实体类列表
-    footer-custom-content: Copyright © 2023-2026 [easyboot.cn] 版权所有.(https://gitee.com/thisZhuMy_admin/easy-boot-v3)
+    footer-custom-content: Copyright © 2023-2026 [easyboot.cn](https://easyboot.cn) 版权所有.
 
 
 captcha:
